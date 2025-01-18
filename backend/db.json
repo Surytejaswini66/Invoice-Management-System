@@ -1,0 +1,20 @@
+{
+  "invoices": [
+    {
+      "id": 1,
+      "invoiceNumber": "INV001",
+      "clientName": "John Doe",
+      "email": "john@example.com",
+      "amount": 200,
+      "status": "Paid"
+    },
+    {
+      "id": 2,
+      "invoiceNumber": "INV002",
+      "clientName": "Jane Doe",
+      "email": "jane@example.com",
+      "amount": 350,
+      "status": "Pending"
+    }
+  ]
+}
