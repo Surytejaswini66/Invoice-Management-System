@@ -1,0 +1,78 @@
+/* Login.css */
+.login-container {
+  width: 300px; /* Reduced the width for a smaller form */
+  margin: 100px auto; /* Center the form on the page with more margin */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-out;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adds space between each input field */
+}
+
+form div {
+  margin-bottom: 10px; /* Reduced margin between form fields */
+}
+
+label {
+  font-size: 0.9rem; /* Smaller label text */
+  color: #555;
+  text-align: left;
+}
+
+input {
+  padding: 8px;
+  font-size: 0.9rem; /* Smaller font size */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #003f7d;
+}
+
+/* Error message style */
+p {
+  color: red;
+  font-size: 0.9rem;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
